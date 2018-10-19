@@ -1,11 +1,11 @@
 const Router = require('./router')
 const JzHandler = require('./jz-handler')
+const WorkflowOut = require('./wf-out')
 
+const out = new WorkflowOut()
 const router = new Router()
-router.register('jz', new JzHandler())
+router.register('jz', new JzHandler(out))
 
-const result = router.handle(process.argv[2].trim(), process.argv[3].trim())
+router.handle(process.argv[2].trim(), process.argv[3].trim())
 
-console.log(JSON.stringify({
-  items: result
-}))
+out.print()
