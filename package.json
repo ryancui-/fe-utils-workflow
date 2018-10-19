@@ -1,0 +1,11 @@
+{
+  "name": "fe-utils-workflow",
+  "version": "1.0.0",
+  "description": "A Alfred workflow utilities helping frontend developer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ryancui",
+  "license": "ISC"
+}
