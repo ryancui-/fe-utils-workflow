@@ -73,7 +73,7 @@
 				<key>runningsubtext</key>
 				<string>急什么</string>
 				<key>script</key>
-				<string>/usr/local/bin/node index.js "{query}"</string>
+				<string>/usr/local/bin/node src/index.js jz "{query}"</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
