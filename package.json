@@ -4,8 +4,11 @@
   "description": "A Alfred workflow utilities helping frontend developer",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "ryancui",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
 }
